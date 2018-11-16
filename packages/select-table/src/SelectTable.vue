@@ -134,7 +134,6 @@ export default {
       } else {
         return;
       }
-
       switch (event.keyCode) {
         case 38:
           this.selectIndex--;
