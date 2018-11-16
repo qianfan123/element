@@ -1,0 +1,12 @@
+.select-table-view{
+  display: inline;
+}
+.input-wrap{
+  position: relative;
+}
+.input-trigger{
+  position: absolute;
+  right: 5px;
+  z-index: 100;
+  cursor: pointer;
+}

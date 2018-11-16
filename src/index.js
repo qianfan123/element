@@ -71,6 +71,7 @@ import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
+import SelectTable from '../packages/select-table/index.js';
 
 const components = [
   Pagination,
@@ -138,7 +139,8 @@ const components = [
   Aside,
   Main,
   Footer,
-  CollapseTransition
+  CollapseTransition,
+  SelectTable
 ];
 
 const install = function(Vue, opts = {}) {
@@ -244,7 +246,8 @@ module.exports = {
   Header,
   Aside,
   Main,
-  Footer
+  Footer,
+  SelectTable
 };
 
 module.exports.default = module.exports;
